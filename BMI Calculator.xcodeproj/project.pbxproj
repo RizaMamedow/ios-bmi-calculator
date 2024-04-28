@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1929B02C2BD833F9008D2015 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1929B02B2BD833F9008D2015 /* CircleButtonView.swift */; };
+		1929B02E2BD834C4008D2015 /* CircleButtonIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1929B02D2BD834C4008D2015 /* CircleButtonIcon.swift */; };
+		1929B0362BD9110E008D2015 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0352BD9110E008D2015 /* Result.swift */; };
+		1929B0382BD92A71008D2015 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0372BD92A71008D2015 /* ResultView.swift */; };
+		1929B03A2BD930D7008D2015 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0392BD930D7008D2015 /* SectionView.swift */; };
+		1929B03C2BD975AD008D2015 /* BMIRatingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1929B03B2BD975AD008D2015 /* BMIRatingMessage.swift */; };
+		197FF33C2BDE884F00295A78 /* AboutAuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197FF33B2BDE884F00295A78 /* AboutAuthorView.swift */; };
+		197FF33E2BDEB98700295A78 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197FF33D2BDEB98700295A78 /* DoubleExtension.swift */; };
+		197FF3412BDEC8F800295A78 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 197FF3402BDEC8F800295A78 /* LICENSE.md */; };
+		197FF3462BDEC90700295A78 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 197FF3432BDEC90700295A78 /* 2.png */; };
+		197FF3472BDEC90700295A78 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 197FF3442BDEC90700295A78 /* 3.png */; };
+		197FF3482BDEC90700295A78 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 197FF3452BDEC90700295A78 /* 1.png */; };
 		19B20B5F2BD7F94D0050BD5E /* BMI_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B20B5E2BD7F94D0050BD5E /* BMI_CalculatorApp.swift */; };
 		19B20B612BD7F94D0050BD5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B20B602BD7F94D0050BD5E /* ContentView.swift */; };
 		19B20B632BD7F94E0050BD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B20B622BD7F94E0050BD5E /* Assets.xcassets */; };
 		19B20B662BD7F94E0050BD5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B20B652BD7F94E0050BD5E /* Preview Assets.xcassets */; };
+		19B20B6D2BD7F9860050BD5E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B20B6C2BD7F9860050BD5E /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1929B02B2BD833F9008D2015 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		1929B02D2BD834C4008D2015 /* CircleButtonIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonIcon.swift; sourceTree = "<group>"; };
+		1929B0352BD9110E008D2015 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		1929B0372BD92A71008D2015 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		1929B0392BD930D7008D2015 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		1929B03B2BD975AD008D2015 /* BMIRatingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIRatingMessage.swift; sourceTree = "<group>"; };
+		197FF33A2BDE7DA100295A78 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		197FF33B2BDE884F00295A78 /* AboutAuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorView.swift; sourceTree = "<group>"; };
+		197FF33D2BDEB98700295A78 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		197FF3402BDEC8F800295A78 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		197FF3432BDEC90700295A78 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		197FF3442BDEC90700295A78 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		197FF3452BDEC90700295A78 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		19B20B5B2BD7F94D0050BD5E /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B20B5E2BD7F94D0050BD5E /* BMI_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_CalculatorApp.swift; sourceTree = "<group>"; };
 		19B20B602BD7F94D0050BD5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19B20B622BD7F94E0050BD5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19B20B652BD7F94E0050BD5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19B20B6C2BD7F9860050BD5E /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +59,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1929B0232BD7FEB9008D2015 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				1929B02D2BD834C4008D2015 /* CircleButtonIcon.swift */,
+				1929B0352BD9110E008D2015 /* Result.swift */,
+				1929B03B2BD975AD008D2015 /* BMIRatingMessage.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		1929B0262BD83251008D2015 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1929B02B2BD833F9008D2015 /* CircleButtonView.swift */,
+				1929B0372BD92A71008D2015 /* ResultView.swift */,
+				1929B0392BD930D7008D2015 /* SectionView.swift */,
+				197FF33B2BDE884F00295A78 /* AboutAuthorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		197FF33F2BDEB98C00295A78 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				197FF33D2BDEB98700295A78 /* DoubleExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		197FF3422BDEC90700295A78 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				197FF3432BDEC90700295A78 /* 2.png */,
+				197FF3442BDEC90700295A78 /* 3.png */,
+				197FF3452BDEC90700295A78 /* 1.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		19B20B522BD7F94C0050BD5E = {
 			isa = PBXGroup;
 			children = (
+				197FF3402BDEC8F800295A78 /* LICENSE.md */,
+				197FF33A2BDE7DA100295A78 /* README.md */,
 				19B20B5D2BD7F94D0050BD5E /* BMI Calculator */,
+				197FF3422BDEC90700295A78 /* Screenshots */,
 				19B20B5C2BD7F94D0050BD5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,8 +120,12 @@
 		19B20B5D2BD7F94D0050BD5E /* BMI Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				197FF33F2BDEB98C00295A78 /* Extensions */,
+				1929B0262BD83251008D2015 /* Views */,
+				1929B0232BD7FEB9008D2015 /* Types */,
 				19B20B5E2BD7F94D0050BD5E /* BMI_CalculatorApp.swift */,
 				19B20B602BD7F94D0050BD5E /* ContentView.swift */,
+				19B20B6C2BD7F9860050BD5E /* ContentViewModel.swift */,
 				19B20B622BD7F94E0050BD5E /* Assets.xcassets */,
 				19B20B642BD7F94E0050BD5E /* Preview Content */,
 			);
@@ -125,7 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197FF3472BDEC90700295A78 /* 3.png in Resources */,
 				19B20B662BD7F94E0050BD5E /* Preview Assets.xcassets in Resources */,
+				197FF3412BDEC8F800295A78 /* LICENSE.md in Resources */,
+				197FF3482BDEC90700295A78 /* 1.png in Resources */,
+				197FF3462BDEC90700295A78 /* 2.png in Resources */,
 				19B20B632BD7F94E0050BD5E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +214,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1929B02E2BD834C4008D2015 /* CircleButtonIcon.swift in Sources */,
 				19B20B612BD7F94D0050BD5E /* ContentView.swift in Sources */,
+				1929B03A2BD930D7008D2015 /* SectionView.swift in Sources */,
+				197FF33E2BDEB98700295A78 /* DoubleExtension.swift in Sources */,
+				1929B0382BD92A71008D2015 /* ResultView.swift in Sources */,
 				19B20B5F2BD7F94D0050BD5E /* BMI_CalculatorApp.swift in Sources */,
+				19B20B6D2BD7F9860050BD5E /* ContentViewModel.swift in Sources */,
+				1929B02C2BD833F9008D2015 /* CircleButtonView.swift in Sources */,
+				1929B0362BD9110E008D2015 /* Result.swift in Sources */,
+				1929B03C2BD975AD008D2015 /* BMIRatingMessage.swift in Sources */,
+				197FF33C2BDE884F00295A78 /* AboutAuthorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
