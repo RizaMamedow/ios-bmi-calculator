@@ -23,14 +23,32 @@ struct SectionView: View {
     var plusButtonCallback: () -> Void
     var minusButtonCallback: () -> Void
     
+    
+    /// Textfield formatter
+    let formatter: NumberFormatter = {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .decimal
+        return formatter
+    }()
+
+    
     /// The body of the section, nothing interesting, just a basic section with no design decisions.
     var body: some View {
         VStack(spacing: 10){
-            Text("\(header)")
-                .font(.title)
-            HStack{
-                Text("\(self.value) \(self.suffix)")
+            HStack(alignment: .top, spacing: 2){
+                Text("\(header)")
                     .font(.title2)
+                    .padding(0)
+                
+                Text("\(suffix)")
+                    .font(.subheadline)
+                    .padding(0)
+            }
+            HStack{
+                TextField("\(header)", value: self.$value, formatter: formatter)
+                    .font(.title2)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .multilineTextAlignment(.center)
                     
             }
             .padding(.vertical, 5)
